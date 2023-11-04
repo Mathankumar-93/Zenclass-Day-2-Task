@@ -1,0 +1,58 @@
+                                                  DOCUMENT OBJECT  
+
+The document object represent a web page that loads in the browser.we can acces the elements in HTML page with the help of document objects we can add dynamic content to our page 
+
+        SYNTAX:
+        document.property_name
+        
+        Properties of document:
+
+1.activeElement:
+                it returns the currently active elements in the document.
+2.body:
+        it returns the contents of the body element.
+3.cookie:
+          it return the cookie of the current document.
+4.title:
+        it return the title element of the document.
+5.domain:
+          it returns the domain name of the document server.
+ 6.URL:
+        it returns the complete url of the document.
+7.head:
+        it return the head element of the document.
+8.design mode:
+              it controls whether the entire document should be editable or not.
+9.doctype:
+          it returns the document type declaration associated with the document.
+10.getElementById():
+                    it returns the element that has the id attribute with the specified value.
+                    
+                                                    WINDOW OBJECT
+                                                    
+ The window object is the top most object of the DOM hierarcy.it represents the browser window that displays the contents of the web page. 
+
+               SYNTAX:
+               window.property_name;
+               
+            properties of the window:
+1. console:
+           it returns a reference to the console object which provides access to the browser debugging console.
+2.controllers:
+              it returns the XUL controllerobjects for the current chrome window.
+3.Document:
+           it returns a reference to the document object of that window.
+4.frames[]:
+           it represents an array that contains all the frames of agiven window.
+5.History:
+          it provides information of the URL visited in the current window.
+6.Length:
+          it represents the number of frames in the current window.
+7.Location:
+           it contains the URL of the current window.
+8.Name:
+        it contains name of the referenced window.
+9.Screen:
+          it refers to the screen object.
+10.window:
+          it returns the current window or frame.
